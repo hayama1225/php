@@ -1,0 +1,18 @@
+.header {
+    background: #000;
+}
+
+.header__inner {
+    margin: 0 auto;
+    /* 0(上下) auto(左右均等で中央寄せ) */
+    /* margin autoはブロック要素でwidthが明示されていること */
+    padding: 20px 15px;
+    max-width: 1230px;
+}
+
+.header__logo {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+}
