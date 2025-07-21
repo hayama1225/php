@@ -1,8 +1,12 @@
 # すべて無視
 *
 
-# ただし .gitignore 自体は除外（Gitに含める）
+# .gitignore 自体はGitに含める
 !.gitignore
+
+# php05ディレクトリとその中身を含める
+!php05/
+!php05/**
 
 # # すべての画像ファイルを無視
 # src/php02/img/
