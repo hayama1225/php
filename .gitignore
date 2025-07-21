@@ -1,0 +1,19 @@
+# すべて無視
+*
+
+# ただし .gitignore 自体は除外（Gitに含める）
+!.gitignore
+
+# # すべての画像ファイルを無視
+# src/php02/img/
+
+# # すべての CSS ファイルを無視
+# *.css
+
+# # php03 ディレクトリだけを無視
+# src/php03/
+
+# # 一時ファイルやOS特有のファイルを無視
+# *.log
+# .DS_Store
+# Thumbs.db
